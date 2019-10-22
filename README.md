@@ -5,10 +5,7 @@
 ### Deployment.
 - Install Node.js
 - Clone the project and install the necessary dependencies:
-` git clone https://github.com/maxbo8/react-instagram.git
----
-cd react-instagram
----
-npm i
-npm start
-`
+> git clone https://github.com/maxbo8/react-instagram.git
+>cd react-instagram
+>npm i
+>npm start
