@@ -1,13 +1,73 @@
 import React, {Component} from 'react';
-import Post from './Post';
+import InstaService from '../services/instaService';
+import User from './User';
+import ErrorMessage from './Error';
 export default class Posts extends Component {
+    InstaService = new InstaService();
+    state = {
+        posts: [],
+        error: false
+    }
+
+    componentDidMount() {
+        this.updatePosts();
+    }
+
+    updatePosts() {
+        this.InstaService.getAllPosts()
+        .then(this.onPostsLoaded)
+        .catch(this.onError);
+    }
+
+    onPostsLoaded = (posts) => {
+        this.setState({
+            posts,
+            error: false
+        });
+    }
+
+    onError = () => {
+        this.setState({
+            error: true
+        })        
+    }
+
+    renderItems(arr) {
+        return  arr.map(item => {
+            const {name, altname, photo, src, alt, descr, id} = item;
+
+            return (
+                <div key={id} className="post">
+                <User 
+                    src={photo}
+                    alt={altname}
+                    name={name}
+                    min/>
+                <img src={src} alt={alt}></img>
+                <div className="post__name">
+                    {name}
+                </div>
+                <div className="post__descr">
+                    {descr}
+                </div>
+            </div>
+            )
+        });
+    }
+
     render() {
+        const {error, posts} = this.state;
+
+        if (error) {
+            return <ErrorMessage/>
+        }
+
+        const items = this.renderItems(posts);
+
         return (
             <div className="left">
-                <Post src="https://media2.24aul.ru/imgs/5916e6b373fce81c1041c330/" alt="first" />
-
-                <Post src="https://lowdaily.ru/wp-content/uploads/2015/01/Mg_1328-2toyota-Altezza.jpg" alt="second" />
-        </div>
+                {items}
+            </div>
         )
     }
 }

@@ -6,28 +6,33 @@ export default function Users() {
         <div className="right">
             <User 
             src="https://a.d-cd.net/5yAAAgBzDuA-960.jpg" 
-            alt="car"
-            name="altezza"/>
+            alt="Maxon"
+            name="Max"/>
                 <div className="users__block">  
                     <User 
                         src="https://a.d-cd.net/5yAAAgBzDuA-960.jpg"
                         alt="car"
-                        name="altezza"
+                        name="annita"
                         min/>
                     <User 
                         src="https://a.d-cd.net/5yAAAgBzDuA-960.jpg"
                         alt="car"
-                        name="altezza"
+                        name="Greddy35"
                         min/>
                     <User 
                         src="https://a.d-cd.net/5yAAAgBzDuA-960.jpg"
                         alt="car"
-                        name="altezza"
+                        name="Pushkagonka"
                         min/>
                     <User 
                         src="https://a.d-cd.net/5yAAAgBzDuA-960.jpg"
                         alt="car"
-                        name="altezza"
+                        name="Egg"
+                        min/>
+                    <User 
+                        src="https://a.d-cd.net/5yAAAgBzDuA-960.jpg"
+                        alt="car"
+                        name="vedroedet"
                         min/>
                 </div> 
         </div> 
