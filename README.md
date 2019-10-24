@@ -11,3 +11,8 @@ cd react-instagram
 npm i
 npm start
 ```
+- Install JSON Server (https://github.com/typicode/json-server)
+```
+npm install -g json-server
+json-server src/posts.json
+```
