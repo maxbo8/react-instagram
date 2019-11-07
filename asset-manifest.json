@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-instagram/static/css/main.fcb48c17.chunk.css",
+    "main.js": "/react-instagram/static/js/main.13a1d1ea.chunk.js",
+    "main.js.map": "/react-instagram/static/js/main.13a1d1ea.chunk.js.map",
+    "runtime-main.js": "/react-instagram/static/js/runtime-main.904c151c.js",
+    "runtime-main.js.map": "/react-instagram/static/js/runtime-main.904c151c.js.map",
+    "static/js/2.44402982.chunk.js": "/react-instagram/static/js/2.44402982.chunk.js",
+    "static/js/2.44402982.chunk.js.map": "/react-instagram/static/js/2.44402982.chunk.js.map",
+    "index.html": "/react-instagram/index.html",
+    "precache-manifest.5cba2267a9045e0923daf2692bc5af91.js": "/react-instagram/precache-manifest.5cba2267a9045e0923daf2692bc5af91.js",
+    "service-worker.js": "/react-instagram/service-worker.js",
+    "static/css/main.fcb48c17.chunk.css.map": "/react-instagram/static/css/main.fcb48c17.chunk.css.map",
+    "static/media/error.png": "/react-instagram/static/media/error.3b8ad90a.png",
+    "static/media/logo.svg": "/react-instagram/static/media/logo.9e8a2b39.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.904c151c.js",
+    "static/js/2.44402982.chunk.js",
+    "static/css/main.fcb48c17.chunk.css",
+    "static/js/main.13a1d1ea.chunk.js"
+  ]
+}
