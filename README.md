@@ -1,4 +1,4 @@
-# A simple application to explore the possibilities of using the following technologies:
+#  This Simple application to explore the possibilities of using the following technologies:
 -  React;
 -  Babel.
 
