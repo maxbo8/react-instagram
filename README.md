@@ -1,6 +1,5 @@
 #  This simple application to explore the possibilities of using the following technologies:
--  React;
--  Babel.
+-  React.js;
 
 ### Deployment.
 - Install Node.js
