@@ -2,7 +2,7 @@
 -  React.js;
 
 ### Deployment.
-- Install Node.js
+- Install Node.js(https://nodejs.org/en/, 12.16.3)
 - Clone the project and install the necessary dependencies:
 ```
 git clone https://github.com/maxbo8/react-instagram.git
